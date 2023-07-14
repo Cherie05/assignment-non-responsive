@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%),url(bg-img.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* navbar*/
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+ul{
+    float: right;
+    list-style: outside none none;
+    padding: 0;
+    display:flex;
+    gap:50px;
+
+    
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    font-size: 14px;
+    padding: 8px;
+    font-family: 'Amaranth', sans-serif;   
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: normal;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+
+.logo{
+    width: 400px;
+    float: left;
+    height: 70px;
+    color: whitesmoke   ;
+}
+
+.logo-img {
+    color:whitesmoke;
+    width: 40%;
+    margin-top: 27px;
+} 
+
+/* content*/
+
+.content{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    color:whitesmoke;
+    margin: auto;
+}
+.heading{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: normal;
+    margin-top: 15%;
+    font-size: 5.5rem;
+}
+span{
+    color: orangered;
+}
+button{
+    width: 180px;
+    height: 40px;
+    background-color: orangered;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s ease;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: .3s ease;
+}
+button:hover{
+    background-color: gray;
+}
+
+/*rows*/
+
+.row {
+    top: 150px;
+    left: 1240px;
+    position: absolute;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 60px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background: rgba(222, 210, 222, 0.171);
+    border-color: transparent;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif; 
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.feature-box i{
+    color: whitesmoke;
+    opacity: 90%;
+}
+.feature-box:hover, .feature-box-2:hover{
+    background-color: orangered;
+}
+.row-2 {
+    top: 470px;
+    left: 60px;
+    position: absolute;
+}
+.feature-box-2{
+    text-align: center;
+    padding: 5%;
+    color: whitesmoke;
+    text-align: center;
+    margin-top:40px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: transparent;
+    cursor: pointer;
+}
+
